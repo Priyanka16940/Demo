@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char oper;
+float num1,num2,num;
+cout<<"Enter 1st number:";
+cin>>num1;
+cout<<"Enter operator:";
+cin>>oper;
+cout<<"Enter 2nd Number:"
+cin>>num2;
+switch(oper)
+{
+case '+':
+	num=num1+num2;
+	cout<<num;
+case '-':
+	num=num1-num2;	
+	cout<<num;
+case '*':
+	num=num1-num2;	
+	cout<<num;
+case '/':
+	num=num1/num2;
+	cout<<num;
+
+}
+return 0;
+}
